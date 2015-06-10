@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4F89D4BD-28A7-4559-AC99-176A42AA70E7</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B609BF7A7728FFB621770F3DB2255DBC60B10F2D</key>
+		<string>github.com:lighthouse-labs/iOS-W6-Design-Assets.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B609BF7A7728FFB621770F3DB2255DBC60B10F2D</key>
+		<string>iOS-W6-Design-Assets/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:lighthouse-labs/iOS-W6-Design-Assets.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B609BF7A7728FFB621770F3DB2255DBC60B10F2D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B609BF7A7728FFB621770F3DB2255DBC60B10F2D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-W6-Design-Assets</string>
+		</dict>
+	</array>
+</dict>
+</plist>
