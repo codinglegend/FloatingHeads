@@ -14,6 +14,8 @@
 		B521689D1B28BD3100D83490 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B521689C1B28BD3100D83490 /* Images.xcassets */; };
 		B52168A01B28BD3100D83490 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B521689E1B28BD3100D83490 /* LaunchScreen.xib */; };
 		B52168AC1B28BD3200D83490 /* FloatingHeadsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B52168AB1B28BD3200D83490 /* FloatingHeadsTests.m */; };
+		B52168BE1B28E2D500D83490 /* FloatingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B52168BD1B28E2D500D83490 /* FloatingButton.m */; };
+		B52168C11B28FBA300D83490 /* UIColor+FlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B52168C01B28FBA300D83490 /* UIColor+FlatColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		B52168A51B28BD3200D83490 /* FloatingHeadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingHeadsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52168AA1B28BD3200D83490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B52168AB1B28BD3200D83490 /* FloatingHeadsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatingHeadsTests.m; sourceTree = "<group>"; };
+		B52168BC1B28E2D500D83490 /* FloatingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingButton.h; sourceTree = "<group>"; };
+		B52168BD1B28E2D500D83490 /* FloatingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatingButton.m; sourceTree = "<group>"; };
+		B52168BF1B28FBA300D83490 /* UIColor+FlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatColors.h"; sourceTree = "<group>"; };
+		B52168C01B28FBA300D83490 /* UIColor+FlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatColors.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				B52168941B28BD3100D83490 /* AppDelegate.m */,
 				B52168961B28BD3100D83490 /* ViewController.h */,
 				B52168971B28BD3100D83490 /* ViewController.m */,
+				B52168BC1B28E2D500D83490 /* FloatingButton.h */,
+				B52168BD1B28E2D500D83490 /* FloatingButton.m */,
+				B52168BF1B28FBA300D83490 /* UIColor+FlatColors.h */,
+				B52168C01B28FBA300D83490 /* UIColor+FlatColors.m */,
 				B52168991B28BD3100D83490 /* Main.storyboard */,
 				B521689C1B28BD3100D83490 /* Images.xcassets */,
 				B521689E1B28BD3100D83490 /* LaunchScreen.xib */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52168C11B28FBA300D83490 /* UIColor+FlatColors.m in Sources */,
 				B52168981B28BD3100D83490 /* ViewController.m in Sources */,
 				B52168951B28BD3100D83490 /* AppDelegate.m in Sources */,
 				B52168921B28BD3100D83490 /* main.m in Sources */,
+				B52168BE1B28E2D500D83490 /* FloatingButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				B52168B11B28BD3200D83490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B52168B21B28BD3200D83490 /* Build configuration list for PBXNativeTarget "FloatingHeadsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				B52168B41B28BD3200D83490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
